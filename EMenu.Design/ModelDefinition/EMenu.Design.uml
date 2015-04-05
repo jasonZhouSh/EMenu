@@ -178,7 +178,166 @@
         Id="0c1d78cd-d697-47ce-ad5c-4b226d9db459"
         name="服务员"
         isAbstract="false"
-        isLeaf="false" />
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="fd02c2fb-9a81-4e88-9a1c-a59add6691ec"
+            isDerived="false"
+            sourceEndRoleName="服务员"
+            targetEndRoleName="登陆"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9c11ecde-7ca8-48cf-adf0-0831d42e6e99"
+              LastKnownName="登陆"
+              LastKnownLocation="EMenu.Design.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b184049c-d686-45a0-a2e5-4cd9c54a9c4b"
+                  name="服务员"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9af006ba-d068-4e13-b905-0a512d0e4b1a"
+                  name="登陆"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7a3bde05-ef8c-41f8-a85f-d805c8b9e055"
+            isDerived="false"
+            sourceEndRoleName="服务员"
+            targetEndRoleName="注销"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="70c59dd8-a420-4ab1-b37a-fa88feb5b28a"
+              LastKnownName="注销"
+              LastKnownLocation="EMenu.Design.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d33b61f5-7fb7-43c5-b837-4fdb94c17818"
+                  name="服务员"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="755a2780-3c49-4d6b-87fa-bea716a0f406"
+                  name="注销"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="76dabb53-0eb1-478a-9c8f-1ec799ca743f"
+            isDerived="false"
+            sourceEndRoleName="服务员"
+            targetEndRoleName="开台"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3e70e1ab-19e4-40a7-a42b-b576df7c7f2c"
+              LastKnownName="开台"
+              LastKnownLocation="EMenu.Design.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0c9e0c4c-753c-4272-bc34-da09c29137c5"
+                  name="服务员"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c4a42c30-828f-4efe-9fea-6c99b25366e0"
+                  name="开台"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3216241d-b697-461b-9107-bff24c5ad591"
+            isDerived="false"
+            sourceEndRoleName="服务员"
+            targetEndRoleName="买单"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e02c9bac-6663-40e4-9a00-9827abaa2c57"
+              LastKnownName="买单"
+              LastKnownLocation="EMenu.Design.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="92e69fd3-3f71-437e-a4ac-692c87b0ed63"
+                  name="服务员"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9e98efb8-d7d0-4f7d-aef3-8e012ea1c043"
+                  name="买单"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <useCase
