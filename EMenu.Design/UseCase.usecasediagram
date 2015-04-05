@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="839ab84d-44d7-4568-a249-65c3564f6452" name="UseCase" linkedPackageId="3971a45a-a163-4cb2-8512-f74d66ecac10" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="91b14028-6251-4baf-a42f-833c6d8a14aa">
+      <elementDefinition Id="0cba46a4-d236-4a3e-9f78-6257a61bac79" />
+      <body>分类查询菜品，查看菜品的详细信息</body>
+      <annotatedElements>
+        <useCaseMoniker Id="ed284d16-f099-447e-8c33-a41aa9a6dc00" LastKnownName="浏览，查询菜品" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="63c85f6a-eaea-4193-93c6-c1d52dd978b2">
+      <profileInstance Id="d25261b4-b532-47a0-9b2a-95c4e37e6551" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d1f32445-b465-497c-b9d3-83f58c533b02">
+      <profileInstance Id="340da46a-f5b1-471a-8111-0336298d9bda" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ed284d16-f099-447e-8c33-a41aa9a6dc00" name="浏览，查询菜品" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="50843a26-5f2d-4498-b87b-47208ec9c53b" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="8ed6005d-826c-4b8b-aaef-5b35a4788fe4" name="顾客" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="383c859e-42a0-497e-83fb-70fbbf698ee1" />
+        <targetEnds>
+          <association Id="14395797-436c-451f-8422-c553a8cc1619" isDerived="false" sourceEndRoleName="顾客" targetEndRoleName="点菜" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a2c1c457-7e92-4a8d-841c-aa1df8e82384" LastKnownName="点菜" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1f826c45-a0e5-4971-8344-8a2cbde67361" name="顾客" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e09aa209-e0e3-4cee-a384-2cec0d89398a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ef30f327-857b-40c9-9bbf-8680b7c2d63e" name="点菜" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1281adef-41fc-45cc-b077-a1ceab61327e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="16ba1685-6d8e-4a77-aff3-b06e67341ff7" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a2c1c457-7e92-4a8d-841c-aa1df8e82384" name="点菜" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="131036d1-a32b-42ec-96ef-7a3cd9878395" />
+        <additions>
+          <include Id="e1e5433c-670f-4029-bb5c-18c11691d74d">
+            <useCaseMoniker Id="ed284d16-f099-447e-8c33-a41aa9a6dc00" LastKnownName="浏览，查询菜品" />
+            <elementDefinition Id="1a83948a-479f-4b65-88e1-578cebdae1ec" />
+          </include>
+          <include Id="3536da78-18cd-4606-9d97-33ca67572ea3">
+            <useCaseMoniker Id="659a21f0-0c0f-417d-b3ca-689ecfaceff6" LastKnownName="增加菜品" />
+            <elementDefinition Id="cdb79d3a-9466-4693-8b22-c6be94ed19c0" />
+          </include>
+          <include Id="59a9081d-ebd0-4974-b605-22140d746237">
+            <useCaseMoniker Id="929e6581-cf1c-4293-b2a0-cbbf51e9821f" LastKnownName="删除菜品" />
+            <elementDefinition Id="1062a664-a7e3-44f3-af52-e9670f729b6c" />
+          </include>
+          <include Id="2ac64178-4b60-4334-991c-68f48aed2eef">
+            <useCaseMoniker Id="240d8e8d-63b6-41ff-b2fc-eb35236e7c8d" LastKnownName="退菜" />
+            <elementDefinition Id="5caea960-0d44-44b5-a1a1-0d4bb32baaf4" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9571b0c7-e28c-44a0-a25a-f2776cc28b2c" name="买单" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e02c9bac-6663-40e4-9a00-9827abaa2c57" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="659a21f0-0c0f-417d-b3ca-689ecfaceff6" name="增加菜品" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="774278d0-8a9d-4447-bd4d-d5917a4542b9" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="929e6581-cf1c-4293-b2a0-cbbf51e9821f" name="删除菜品" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="11d56ab9-cd57-44fd-acd1-7ebfa0ebef47" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="240d8e8d-63b6-41ff-b2fc-eb35236e7c8d" name="退菜" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2da76153-98bf-4dc2-a02d-6524dae3cbf6" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="854cddb2-c5e5-4017-a2f4-711537403c4c" name="服务员" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0c1d78cd-d697-47ce-ad5c-4b226d9db459" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="92fcdff1-420c-4002-b1f2-618b1a51ec3d" name="登陆" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9c11ecde-7ca8-48cf-adf0-0831d42e6e99" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d53c8ed4-bb7d-43c8-9c6a-7dbd3c197ced" name="注销" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="70c59dd8-a420-4ab1-b37a-fa88feb5b28a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6d3caaf1-6407-4544-95ec-c08cdae6761a" name="开台" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3e70e1ab-19e4-40a7-a42b-b576df7c7f2c" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="3971a45a-a163-4cb2-8512-f74d66ecac10" name="EMenu.Design">
+    <elementDefinition Id="c7beaf02-a1ec-47d0-b227-a07385c13d64" />
+  </package>
+</useCaseModelRoot>
