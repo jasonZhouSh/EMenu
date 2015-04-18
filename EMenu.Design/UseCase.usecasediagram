@@ -181,6 +181,31 @@
         <elementDefinition Id="3e70e1ab-19e4-40a7-a42b-b576df7c7f2c" />
       </useCase>
     </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="af852773-8a71-4e8f-b938-7cd0f615ae32" name="店长" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9d21e495-aa37-4298-9b2a-e6b4515418ba" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2da7106a-3652-47b3-9aa5-3b403b0fa8b6" name="登陆" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fdc8059e-fa4d-449c-8dbb-53bf317a0bb0" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3600db8b-5603-4f43-b349-d9b5448e8e87" name="注销" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="af657f46-4c6d-4d80-be46-a627596d12e5" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="23270da6-1e06-4c97-978e-bd01c650b1b1" name="结账" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9b9e6705-7c35-4e6f-b99f-14183cc05414" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7a7d16f5-bb8d-4520-94ec-a0993c8045f3" name="退菜" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="402abc22-db66-4d6e-9e01-c4b1d32376ad" />
+      </useCase>
+    </useCaseModelRootHasTypes>
   </packagedElements>
   <package Id="3971a45a-a163-4cb2-8512-f74d66ecac10" name="EMenu.Design">
     <elementDefinition Id="c7beaf02-a1ec-47d0-b227-a07385c13d64" />

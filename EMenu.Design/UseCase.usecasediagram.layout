@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.75, 8.5" name="UseCase">
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 16.25, 8.5" name="UseCase">
   <useCaseModelRootMoniker Id="839ab84d-44d7-4568-a249-65c3564f6452" />
   <nestedChildShapes>
     <useCaseShape Id="2688b101-0bb8-440e-887d-763914d688ad" absoluteBounds="4.125, 0.875, 1.375, 0.5" customColor="238, 237, 131" heightOffset="0">
@@ -30,7 +30,7 @@
         <useCaseShapeMoniker Id="2688b101-0bb8-440e-887d-763914d688ad" />
       </nodes>
     </includeConnector>
-    <useCaseShape Id="ae058922-ddec-41ae-9364-2de8f330ec85" absoluteBounds="10.375, 4, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+    <useCaseShape Id="ae058922-ddec-41ae-9364-2de8f330ec85" absoluteBounds="10.375, 4.125, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
       <useCaseMoniker Id="9571b0c7-e28c-44a0-a25a-f2776cc28b2c" LastKnownName="买单" />
       <relativeChildShapes />
     </useCaseShape>
@@ -74,7 +74,7 @@
       <actorMoniker Id="854cddb2-c5e5-4017-a2f4-711537403c4c" LastKnownName="服务员" />
       <relativeChildShapes />
     </actorShape>
-    <useCaseAssociationConnector edgePoints="[(8.25 : 2.65217391304348); (10.55763028832 : 4.05681843636869)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(8.25 : 2.66304347826087); (10.5707842281714 : 4.17659840967702)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="5832bf92-e400-4b64-82b7-3fc084535aad" />
       <relativeChildShapes />
       <nodes>
@@ -82,11 +82,11 @@
         <useCaseShapeMoniker Id="ae058922-ddec-41ae-9364-2de8f330ec85" />
       </nodes>
     </useCaseAssociationConnector>
-    <useCaseShape Id="3fa1d027-b203-4bb8-bc2c-2986f3815862" absoluteBounds="10.5, 1.125, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+    <useCaseShape Id="3fa1d027-b203-4bb8-bc2c-2986f3815862" absoluteBounds="10.375, 0.875, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
       <useCaseMoniker Id="92fcdff1-420c-4002-b1f2-618b1a51ec3d" LastKnownName="登陆" />
       <relativeChildShapes />
     </useCaseShape>
-    <useCaseAssociationConnector edgePoints="[(8.25 : 2.40625); (10.6 : 1.525)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(8.25 : 2.3804347826087); (10.5136790714262 : 1.29780566149184)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="1619c3a8-cfe2-4c52-84f1-c8374f3afcfd" />
       <relativeChildShapes />
       <nodes>
@@ -129,5 +129,25 @@
         <useCaseShapeMoniker Id="2688b101-0bb8-440e-887d-763914d688ad" />
       </nodes>
     </commentConnector>
+    <actorShape Id="b637c08c-a143-476b-87f7-a718242a41c6" absoluteBounds="13.375, 2.125, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="af852773-8a71-4e8f-b938-7cd0f615ae32" LastKnownName="店长" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="e4030561-7825-4e69-8683-881eea46215f" absoluteBounds="15, 0.75, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="2da7106a-3652-47b3-9aa5-3b403b0fa8b6" LastKnownName="登陆" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="3d730692-cdaa-413d-946b-b6c4cbecf3c5" absoluteBounds="15, 1.625, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="3600db8b-5603-4f43-b349-d9b5448e8e87" LastKnownName="注销" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="5dd81a5e-425a-40b7-839a-88e50510df96" absoluteBounds="15, 2.5, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="23270da6-1e06-4c97-978e-bd01c650b1b1" LastKnownName="结账" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="a95efc47-2823-4a3f-81dd-d13b07e849e2" absoluteBounds="15, 3.5, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="7a7d16f5-bb8d-4520-94ec-a0993c8045f3" LastKnownName="退菜" />
+      <relativeChildShapes />
+    </useCaseShape>
   </nestedChildShapes>
 </useCaseDiagram>
